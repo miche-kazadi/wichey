@@ -7,7 +7,7 @@ export default function Home() {
         <div className="row align-items-center g-5">
           <div className="col- col-md-5 text-center ">
             <img
-              src="./wicheykaiz.JPG"
+              src="./wicheykaiz-removebg-preview (1).png"
               alt="Profile photo of Michée Kazadi smiling in a professional setting."
               className="img-fluid rounded shadow-sm rounded-circle m-auto"
               width={350}
@@ -25,7 +25,7 @@ export default function Home() {
               do what I truly enjoy.
             </p>
             <a
-              href="/resume.pdf"
+              href="/http://localhost:5174/"
               className="btn btn-primary btn-lg shadow-sm"
               download
             >

@@ -1,12 +1,18 @@
 import { NavLink } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Nav() {
+  const closeMenu = () => {
+    const menu = document.getElementById("navbarNav");
+    if (menu && menu.classList.contains("show")) {
+      menu.classList.remove("show");
+    }
+  };
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <nav className="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
       <div className="container">
-        <NavLink to="/" className="navbar-brand fw-bold">
-          my portfolio
+        <NavLink to="/" className="navbar-brand fw-bold fs-4">
+          my<span className="text-primary">portfolio</span>
         </NavLink>
 
         <button
@@ -14,19 +20,17 @@ export default function Nav() {
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav ms-auto gap-lg-4 text-center">
             <li className="nav-item">
               <NavLink
                 to="/"
                 end
+                onClick={closeMenu}
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "active fw-semibold" : ""}`
                 }
@@ -34,9 +38,11 @@ export default function Nav() {
                 Home
               </NavLink>
             </li>
+
             <li className="nav-item">
               <NavLink
                 to="/about"
+                onClick={closeMenu}
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "active fw-semibold" : ""}`
                 }
@@ -44,27 +50,30 @@ export default function Nav() {
                 About me
               </NavLink>
             </li>
+
             <li className="nav-item">
               <NavLink
-                to="/Projects"
+                to="/projects"
+                onClick={closeMenu}
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "active fw-semibold" : ""}`
                 }
               >
-                projects
+                Projects
               </NavLink>
             </li>
-              <li className="nav-item">
+
+            <li className="nav-item">
               <NavLink
                 to="/connect"
+                onClick={closeMenu}
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "active fw-semibold" : ""}`
                 }
               >
-                contact me
+                Contact me
               </NavLink>
             </li>
-            
           </ul>
         </div>
       </div>

@@ -7,22 +7,28 @@ import Project from './component/project';
 import Footer from './component/footer';
 import Nav from './component/nav';
 
+
+
 function App() {
   return (
-    <>
-      <Router className="container">
+    <Router>
+      {/* On place le container ici pour englober tout le contenu */}
+      <div className="container">
         <Nav />
-        <Routes className="row">
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Project />} />
-        <Route path="/connect" element={<Connect />} />
-        </Routes>
-      </Router>
-      <Footer />
-    </>
 
-  )
+        {/* On entoure les Routes d'une div "row" si nécessaire pour le layout */}
+        <div className="row">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Project />} />
+            <Route path="/connect" element={<Connect />} />
+          </Routes>
+        </div>
+        <Footer />
+      </div>
+    </Router>
+  );
 }
 
 export default App

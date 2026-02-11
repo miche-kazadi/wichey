@@ -1,9 +1,15 @@
-export default function Footer() { 
+export default function Footer() {
     return (
-        <footer className="bg-dark text-white text-center py-3 mt-7">
-            <div className="container">
-                <p className="mb-0">&copy; {new Date().getFullYear()} My Portfolio. All rights reserved.</p>
+        <footer className="custom-footer text-center mt-5">
+            <div className="container py-4">
+                <p className="mb-1 fw-semibold text-light">
+                    My Portfolio
+                </p>
+
+                <p className="mb-0 small text-secondary">
+                    © {new Date().getFullYear()} All rights reserved
+                </p>
             </div>
         </footer>
     );
-}   
+}

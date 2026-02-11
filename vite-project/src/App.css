@@ -1,0 +1,7 @@
+.divOf{
+  transition: transform 0.2s ease; 
+}
+.divOf:hover{
+  transform: translateX(5px); 
+}
+

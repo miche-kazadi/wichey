@@ -1,38 +1,63 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./Home.css";
+
+import { useEffect, useRef } from "react";
 
 export default function Home() {
+  const heroRef = useRef(null);
+
+  useEffect(() => {
+    heroRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, []);
+
   return (
-    <header className="bg-light py-5">
+    <header
+      ref={heroRef}
+      className="hero-section py-5 d-flex align-items-center"
+    >
       <div className="container">
-        <div className="row align-items-center g-5">
-          <div className="col- col-md-5 text-center ">
-            <img
-              src="./wicheykaiz-removebg-preview (1).png"
-              alt="Profile photo of Michée Kazadi smiling in a professional setting."
-              className="img-fluid rounded shadow-sm rounded-circle m-auto"
-              width={350}
-            />
+        <div className="row align-items-center justify-content-center g-5">
+
+          {/* IMAGE */}
+          <div className="col-md-5 text-center fade-in-left">
+            <div className="profile-wrapper mx-auto">
+              <img
+                src="/wichey.png"
+                alt="Michée Kazadi"
+                className="profile-img"
+              />
+            </div>
           </div>
 
-          <div className="col-12 col-md-7">
-            <p className="text-muted mb-2">Hello, I am</p>
-            <h2 className="fw-bold display-3 mb-2">Michée Kazadi</h2>
-            <p className="text-primary fs-4 fw-semibold mb-3">
-              Junior React Developer
+          {/* TEXTE */}
+          <div className="col-md-6 fade-in-right">
+            <p className="text-accent mb-2">Hello, I am</p>
+
+            <h1 className="hero-title mb-2">
+              Michée <span>Kazadi</span>
+            </h1>
+
+            <p className="hero-role mb-3">
+              Junior Software Engineer
             </p>
-            <p className="text-secondary mb-4">
-              I create modern and responsive web interfaces. Passionate, I only
-              do what I truly enjoy.
+
+            <p className="hero-desc mb-4">
+              I build modern and responsive web interfaces, mobile applications
+              and meaningful digital experiences. Passionate, creative and
+              focused on quality.
             </p>
-            <a
-              href="/http://localhost:5174/"
-              className="btn btn-primary btn-lg shadow-sm"
-              download
-            >
-              <i className="bi bi-download me-2"></i>
-              Download Resume
-            </a>
+
+            <div className="d-flex gap-3 flex-wrap">
+              <a href="/resume.pdf" download className="btn btn-main">
+                Download Resume
+              </a>
+
+              <a href="#contact" className="btn btn-outline-main">
+                Contact Me
+              </a>
+            </div>
           </div>
+
         </div>
       </div>
     </header>

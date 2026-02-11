@@ -1,0 +1,84 @@
+.divOf{
+  transition: transform 0.2s ease; 
+}
+.divOf:hover{
+  transform: translateX(2px); 
+}
+/* ===== NAVBAR PRO ===== */
+.custom-navbar {
+  background: rgba(5, 8, 22, 0.85);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background 0.3s ease;
+}
+
+.custom-navbar .nav-link {
+  color: #c7ccff;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffffff;
+}
+
+.custom-navbar .nav-link.active {
+  color: #ffffff;
+}
+
+/* ===== FOOTER PRO ===== */
+.custom-footer {
+  background: linear-gradient(180deg, #060a1f, #050816);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+
+
+/* ===== CONTACT SECTION ===== */
+.contact-section {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #050816, #060a1f);
+  color: #e5e7eb;
+  display: flex;
+  align-items: center;
+}
+
+/* TITRES */
+.contact-title {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  color: #ffffff;
+}
+
+.contact-subtitle {
+  color: #a5b4fc;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* CARDS */
+.contact-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 2.5rem 1.5rem;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(99, 102, 241, 0.25);
+}
+
+/* LIENS */
+.contact-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: #818cf8;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #ffffff;
+}

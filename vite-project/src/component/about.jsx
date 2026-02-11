@@ -1,30 +1,21 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 export default function About() {
   return (
-    <section className="about-section py-5 bg-light">
+    <section className="about-section py-5" style={{ backgroundColor: '#050714', color: 'white' }}>
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-10 mx-auto text-center">
-            <h1 className="mb-5 text-dark fw-bold">About Me</h1>
-            <p className="lead text-muted">
-              Hello! My name is <span className="fw-semibold-10">Michée Kazadi</span> and I'm a 
-              web developer passionate about creating modern and intuitive user experiences.
-              I recently began my programming journey and have gained a solid understanding of 
-              <span className="fw-semibold"> React, JavaScript, HTML, and CSS</span>.
+            <h1 className="mb-5 fw-bold mt-3" style={{ fontSize: '3rem' }}>About Me</h1>
+            <p className="lead opacity-75" style={{ lineHeight: '1.8' }}>
+              Hello ! <br /> My name is <span style={{ color: '#4f6cf6', fontWeight: 'bold' }}>Michée Kazadi</span> and I'm a
+              <span style={{ color: '#4f6cf6' }}> Software Engineer</span> passionate about creating modern and intuitive user experiences.
+              I recently began my programming journey in 2023 and have gained a solid understanding of
+              <span className="fw-semibold"> React, React Native, Vue, JavaScript, Python Django and Node.js</span>.
             </p>
-
-            <p className="text-muted">
-              I enjoy solving problems and learning new technologies. 
-              Every new project is an opportunity to expand my skills and create 
-              something both useful and beautiful.
-            </p>
-
-            <p className="text-muted">
-              Outside of coding, I enjoy <span className="fw-semibold">playing and watching soccer</span>, 
-              <span className="fw-semibold"> playing chess</span>, and of course, 
-              <span className="fw-semibold"> enjoying good food</span>.
-            </p>
+            <div className="mt-4">
+              <p className="opacity-50">
+                Outside of coding, I enjoy playing chess, soccer, and enjoying good food.
+              </p>
+            </div>
           </div>
         </div>
       </div>

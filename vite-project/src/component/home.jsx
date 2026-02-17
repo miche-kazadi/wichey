@@ -22,7 +22,7 @@ export default function Home() {
           <div className="col-md-5 text-center fade-in-left">
             <div className="profile-wrapper mx-auto">
               <img
-                src="/wichey.png"
+                src="/wicy.jpg"
                 alt="Michée Kazadi"
                 className="profile-img"
               />
@@ -48,13 +48,10 @@ export default function Home() {
             </p>
 
             <div className="d-flex gap-3 flex-wrap">
-              <a href="/resume.pdf" download className="btn btn-main">
+              <a href="/Michee.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-main">
                 Download Resume
               </a>
-
-              <a href="#contact" className="btn btn-outline-main">
-                Contact Me
-              </a>
+              
             </div>
           </div>
 

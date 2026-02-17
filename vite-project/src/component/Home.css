@@ -93,11 +93,11 @@
 
 /* ====== ANIMATIONS ====== */
 .fade-in-left {
-  animation: fadeLeft 1.2s ease forwards;
+  animation: fadeLeft 1.5s ease forwards;
 }
 
 .fade-in-right {
-  animation: fadeRight 1.2s ease forwards;
+  animation: fadeRight 1.5s ease forwards;
 }
 
 @keyframes fadeLeft {

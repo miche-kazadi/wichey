@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "portfolio-wichey"
-  }
+  },
+  "targets": {
+    "portfolio-wichey": {
+      "hosting": {
+        "portfolio-wichey": [
+          "portfolio-wichey"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

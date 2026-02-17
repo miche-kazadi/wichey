@@ -48,10 +48,10 @@ export default function Home() {
             </p>
 
             <div className="d-flex gap-3 flex-wrap">
-              <a href="/Michee.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-main">
+              <a href="/Michee.pdf" download className="btn btn-main">
                 Download Resume
               </a>
-              
+
             </div>
           </div>
 

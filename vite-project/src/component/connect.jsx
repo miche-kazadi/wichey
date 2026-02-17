@@ -20,7 +20,7 @@ export default function Connect() {
           <div className="col-md-5 col-lg-4">
             <div className="p-4 text-center rounded-4 h-100 border-0 shadow-sm" style={{ backgroundColor: '#0a1128', border: '1px solid #1a254d' }}>
               <h5 className="fw-bold" style={{ color: '#4f6cf6' }}>LinkedIn</h5>
-              <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank" rel="noopener noreferrer" className="text-decoration-none text-white opacity-75 fw-semibold">
+              <a href="https://www.linkedin.com/in/wichey-kaiz-66421b267/" target="_blank" rel="noopener noreferrer" className="text-decoration-none text-white opacity-75 fw-semibold">
                 My Profile
               </a>
             </div>

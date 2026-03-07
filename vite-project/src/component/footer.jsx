@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="custom-footer text-center mt-5">
+        <footer className="custom-footer text-center mt-1">
             <div className="container py-4">
                 <p className="mb-1 fw-semibold text-light">
                     My Portfolio

@@ -7,16 +7,11 @@ import Project from './component/project';
 import Footer from './component/footer';
 import Nav from './component/nav';
 
-
-
 function App() {
   return (
     <Router>
-      {/* On place le container ici pour englober tout le contenu */}
-      <div className="container">
+      <div>
         <Nav />
-
-        {/* On entoure les Routes d'une div "row" si nécessaire pour le layout */}
         <div className="row">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -30,5 +25,4 @@ function App() {
     </Router>
   );
 }
-
 export default App

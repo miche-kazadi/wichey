@@ -49,9 +49,9 @@
   width: 280px;
   height: 280px;
   border-radius: 50%;
-  padding: 6px;
+  padding: 5px;
   background: linear-gradient(135deg, var(--accent), #22d3ee);
-  animation: float 4s ease-in-out infinite;
+  animation: float 5s ease-in-out infinite;
 }
 
 .profile-img {
@@ -59,7 +59,7 @@
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  border: 6px solid white;
+  border: 5px solid white;
 }
 
 /* ====== BOUTONS ====== */

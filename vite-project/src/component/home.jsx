@@ -32,15 +32,12 @@ export default function Home() {
           {/* TEXTE */}
           <div className="col-md-6 fade-in-right">
             <p className="text-accent mb-2">Hello, I am</p>
-
             <h1 className="hero-title mb-2">
               Michée <span>Kazadi</span>
             </h1>
-
             <p className="hero-role mb-3">
               Junior Software Engineer
             </p>
-
             <p className="hero-desc mb-4">
               I build modern and responsive web interfaces, mobile applications
               and meaningful digital experiences. Passionate, creative and

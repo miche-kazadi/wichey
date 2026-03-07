@@ -25,7 +25,7 @@ export default function Project() {
   return (
     <section className="project-section py-5" style={{ backgroundColor: '#050714' }}>
       <div className="container">
-        <h2 className="text-center mb-5 fw-bold text-white mt-4" style={{ fontSize: '2.5rem' }}> My Projects </h2>
+        <h2 className="text-center mb-5 fw-bold text-white mt-4" style={{ fontSize: '2.5rem' }}> My <span className='text-primary'>Projects</span> </h2>
         <div className="row justify-content-center g-4">
 
           {myProjects.map((project, index) => (

@@ -12,13 +12,20 @@ export default function Project() {
       title: "Chef-Claude",
       description: "A restaurant project with a modern user experience. It extends your way to govern like a big Chef-Claude, helping you get a better experience.",
       stack: "React, Bootstrap",
-      link: "https://github.com/miche-kazadi"
+      link: "https://github.com/miche-kazadi/chefClaude"
     },
     {
       title: "Tenzens",
       description: "We like gaming when there's nothing to do. Like me playing chess every day, Tenzens helps you remove stress and relax.",
       stack: "React, Bootstrap",
-      link: "https://github.com/miche-kazadi"
+      link: "https://github.com/miche-kazadi/tenzens"
+    }
+    ,
+    {
+      title: "what'app-clone",
+      description: "We like gaming when there's nothing to do. Like me playing chess every day, Tenzens helps you remove stress and relax.",
+      stack: "React, Bootstrap",
+      link: "https://github.com/miche-kazadi/miche-kazadi-djangoWhat-sppClone"
     }
   ];
 

@@ -43,15 +43,12 @@ export default function Home() {
               and meaningful digital experiences. Passionate, creative and
               focused on quality.
             </p>
-
             <div className="d-flex gap-3 flex-wrap">
               <a href="/Michee.pdf" download className="btn btn-main">
                 Download Resume
               </a>
-
             </div>
           </div>
-
         </div>
       </div>
     </header>

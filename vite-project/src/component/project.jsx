@@ -15,15 +15,8 @@ export default function Project() {
       link: "https://github.com/miche-kazadi/chefClaude"
     },
     {
-      title: "Tenzens",
-      description: "We like gaming when there's nothing to do. Like me playing chess every day, Tenzens helps you remove stress and relax.",
-      stack: "React, Bootstrap",
-      link: "https://github.com/miche-kazadi/tenzens"
-    }
-    ,
-    {
-      title: "what'app-clone",
-      description: "We like gaming when there's nothing to do. Like me playing chess every day, Tenzens helps you remove stress and relax.",
+      title: "whatsapp-clone",
+      description: "Communication is essential in life, which is why CloneMessenger allows you to chat instantly and securely with your loved ones..",
       stack: "React, Bootstrap",
       link: "https://github.com/miche-kazadi/miche-kazadi-djangoWhat-sppClone"
     }

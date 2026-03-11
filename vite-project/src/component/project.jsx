@@ -3,6 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Project() {
   const myProjects = [
     {
+      title: "TodoList",
+      description: "With busy schedules, we often lose track of essential weekly tasks. TodoList helps keep things organized and stress-free.",
+      stack: "React, Bootstrap",
+      link: "https://github.com/miche-kazadi"
+    },
+    {
       title: "Chef-Claude",
       description: "A restaurant project with a modern user experience. It extends your way to govern like a big Chef-Claude, helping you get a better experience.",
       stack: "React, Bootstrap",

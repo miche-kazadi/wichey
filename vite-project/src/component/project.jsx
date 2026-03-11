@@ -3,6 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Project() {
   const myProjects = [
     {
+      title: "whatsapp-clone",
+      description: "A real-time chat application inspired by WhatsApp.Features include authentication, conversations, instant messaging and user profiles.",
+      stack: "Django,React,WebSocket, API REST",
+      link: "https://github.com/miche-kazadi/miche-kazadi-djangoWhat-sppClone"
+    },
+    {
       title: "TodoList",
       description: "With busy schedules, we often lose track of essential weekly tasks. TodoList helps keep things organized and stress-free.",
       stack: "React, Bootstrap",
@@ -14,12 +20,6 @@ export default function Project() {
       stack: "React, Bootstrap",
       link: "https://github.com/miche-kazadi/chefClaude"
     },
-    {
-      title: "whatsapp-clone",
-      description: "Communication is essential in life, which is why CloneMessenger allows you to chat instantly and securely with your loved ones..",
-      stack: "React, Bootstrap",
-      link: "https://github.com/miche-kazadi/miche-kazadi-djangoWhat-sppClone"
-    }
   ];
 
   return (

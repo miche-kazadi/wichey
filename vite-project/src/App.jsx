@@ -10,7 +10,7 @@ import Nav from './component/nav';
 function App() {
   return (
     <Router>
-      <div>
+      
         <Nav />
         <div className="row">
           <Routes>
@@ -19,9 +19,8 @@ function App() {
             <Route path="/projects" element={<Project />} />
             <Route path="/connect" element={<Connect />} />
           </Routes>
-        </div>
         <Footer />
-      </div>
+        </div>
     </Router>
   );
 }

@@ -52,6 +52,7 @@
   padding: 5px;
   background: linear-gradient(135deg, var(--accent), #22d3ee);
   animation: float 5s ease-in-out infinite;
+  margin-top: 35px;
 }
 
 .profile-img {

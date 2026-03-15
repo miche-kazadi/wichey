@@ -6,7 +6,7 @@ export default function Project() {
       title: "whatsapp-clone",
       description: "A real-time chat application inspired by WhatsApp.Features include authentication, conversations, instant messaging and user profiles.",
       stack: "Django,React,WebSocket, API REST",
-      link: "https://github.com/miche-kazadi/miche-kazadi-djangoWhat-sppClone"
+      link: "https://django-whatsapp-clone-app.web.app/login"
     },
     {
       title: "TodoList",
